@@ -25,6 +25,9 @@ class HomePage {
         .contains(categoryName)
         .click();
     }
+    navigateToCategory(categoryName) {
+      cy.get('#categorymenu').contains(categoryName).click();
+    }
     
 
   }
