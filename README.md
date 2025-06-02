@@ -37,19 +37,12 @@ cypress/
 
 ## 🚀 Scripts de ejecución
 
-🖥️ Modo Interactivo
-npx cypress open                     # Ejecutar en modo escritorio
-npx cypress open --env viewport=mobile  # Ejecutar en modo mobile
-
 ⚡ Modo Headless (sin interfaz gráfica)
   # 🖥️ Ejecutar pruebas desktop
-npm run test:desktop
+npx cypress open
 
 # 📱 Ejecutar pruebas mobile
-npm run test:mobile
-
-# 🧪 Ejecutar ambas suites (mobile + desktop)
-npm run test:all
+npx cypress open --env viewport=mobile
 
 
 > 📌 El flag `--env viewport=mobile` puede usarse para personalizar lógica condicional si fuera necesario en el futuro.
