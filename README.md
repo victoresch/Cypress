@@ -37,13 +37,16 @@ cypress/
 
 ## 🚀 Scripts de ejecución
 
-⚡ Modo Headless (sin interfaz gráfica)
+
   # 🖥️ Ejecutar pruebas desktop
+```js
 npx cypress open
+```
 
 # 📱 Ejecutar pruebas mobile
+```js
 npx cypress open --env viewport=mobile
-
+```
 
 > 📌 El flag `--env viewport=mobile` puede usarse para personalizar lógica condicional si fuera necesario en el futuro.
 
