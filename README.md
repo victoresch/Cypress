@@ -26,41 +26,36 @@ Este repositorio contiene pruebas automatizadas de extremo a extremo (E2E) para 
 | ![Cypress](https://img.shields.io/badge/Cypress-✅-brightgreen) | 14+ |
 
 ## 🛠 Instalación
-
 ```bash
 npm install
-🚀 Comandos Disponibles
-Comando	Descripción	Icono
-npm run test:mobile	Ejecuta pruebas móviles	📱
-npm run test:desktop	Ejecuta pruebas desktop	🖥️
-npm run test:all	Ejecuta todas las pruebas	📱+🖥️
-npm run merge:reports	Combina reportes	🔗
-npm run generate:report	Genera reporte combinado	📊
-npm run clean:reports	Limpia reportes temporales	🧹
-📂 Estructura del Proyecto
-cypress/
+```
+## 🚀 Comandos Disponibles
+
+| Comando | Descripción     | Icono                |
+| :-------- | :------- | :------------------------- |
+| `npm run test:mobile   ` | `Ejecuta pruebas móviles	` | 📱 |
+| `npm run test:desktop. ` | `Ejecuta pruebas desktop	` | 🖥️|
+| `npm run test:all.     ` | `Ejecuta todas las pruebas	` | 📱+🖥️ |
+| `npm run merge:reports ` | `Combina reportes	` | 🔗 |
+| `npm run generate:report` | `Genera reporte combinado	` | 📊 |
+| `npm run clean:reports	` | `Limpia reportes temporales	` | 🧹 |
+
+## 📂 Estructura del Proyecto
+```bash
+  cypress/
 ├── e2e/
 │   ├── desktop/       # 🖥️ Pruebas desktop
 │   └── mobile/        # 📱 Pruebas móviles
 ├── screenshots/       # 📸 Capturas
 ├── videos/            # 🎥 Videos
 └── report/            # 📊 Reportes
-⚙️ Configuración Técnica
-Configuración	Valor	Icono
-Viewport Mobile	375x812	📱
-Viewport Desktop	1280x720	🖥️
-Timeout	10000ms	⏱️
-Reportes	Mochawesome	📊
-📊 Generación de Reportes
+```
+
+## 📊 Generación de Reportes
 Los reportes se generan automáticamente en:
 
-cypress/report/mobile/ 📱
-
-cypress/report/desktop/ 🖥️
-
-cypress/report/combined/ 📊 (combinado)
-
-👨‍💻 Autor
-Developer Victor Estupiñan
-Email victoresch@hotmail.com
-GitHub https://github.com/victoresch
+| Comando | Descripción     |
+| :-------- | :------- | 
+| `cypress/report/mobile/   `| 📱 |
+| `cypress/report/desktop/  `| 🖥️ |
+| `cypress/report/combined/ `|  📊  (combinado)|
