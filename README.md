@@ -31,6 +31,7 @@ npm install
 ```
 ## 🚀 Comandos Disponibles
 
+🔥 Ejecución modo HeadLess
 | Comando | Descripción     | Icono                |
 | :-------- | :------- | :------------------------- |
 | `npm run test:mobile   ` | `Ejecuta pruebas móviles	` | 📱 |
@@ -39,6 +40,13 @@ npm install
 | `npm run merge:reports ` | `Combina reportes	` | 🔗 |
 | `npm run generate:report` | `Genera reporte combinado	` | 📊 |
 | `npm run clean:reports	` | `Limpia reportes temporales	` | 🧹 |
+
+🔥 Ejecución modo interactivo (Ejecutar en terminales separadas)
+| Comando | Descripción     | Icono                |
+| :-------- | :------- | :------------------------- |
+| `npx cypress open --config-file cypress.config.mobile.js   ` | `Ejecuta pruebas móviles	` | 📱 |
+| `npx cypress open --config-file cypress.config.desktop.js. ` | `Ejecuta pruebas desktop	` | 🖥️|
+
 
 ## 📂 Estructura del Proyecto
 ```bash
@@ -59,3 +67,4 @@ Los reportes se generan automáticamente en:
 | `cypress/report/mobile/   `| 📱 |
 | `cypress/report/desktop/  `| 🖥️ |
 | `cypress/report/combined/ `|  📊  (combinado)|
+
