@@ -1,6 +1,8 @@
 import CategoryPage from '../../pages/CategoryPage';
 import HomePage from '../../pages/HomePage';
 import CartPage from '../../pages/CartPage';
+import 'cypress-mochawesome-reporter/register'
+
 
 describe('Agregar producto al carrito', () => {
   it('Agregar producto desde categoría Hair Care', () => {

@@ -1,6 +1,7 @@
 import CategoryPage from "../../pages/CategoryPage";
 import HomePage from "../../pages/HomePage";
 import CartPage from "../../pages/CartPage";
+import 'cypress-mochawesome-reporter/register'
 
 describe('Navegación en menú mobile', () => {
     it('Debe acceder a categoría Skin Care desde el menú', () => {

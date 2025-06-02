@@ -1,4 +1,5 @@
 import LoginPage from "../../pages/LoginPage"
+import 'cypress-mochawesome-reporter/register'
 
 describe('Login test', () => {
     it('Login con credenciales validas', () => {
