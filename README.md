@@ -5,6 +5,8 @@
 
 Este repositorio contiene pruebas automatizadas de extremo a extremo (E2E) para el sitio [https://automationteststore.com] dado que no cuenta con un sistema anti-bot. Estas pruebas fueron desarrolladas con **Cypress** utilizando el **patrón Page Object Model (POM)**, organizadas en flujos web y mobile haciendo uso de variable de entorno para ejecutar los test mobile y generación de reportes separados según la plataforma a ejecutar.
 
+⚠️ Parte del entregable es la evidencia en videos de la ejecución que se encuentra en este repositorio en la carpeta Report que contiene los reportes separados por plataforma y los videos de igual manera.
+
 ![Cypress](https://img.shields.io/badge/Cypress-12.0.0-brightgreen) 
 ![Node](https://img.shields.io/badge/Node-16%2B-blue) 
 ![npm](https://img.shields.io/badge/npm-8%2B-orange)
