@@ -1,11 +1,9 @@
 import HomePage from '../../pages/HomePage';
-import CategoryPage from '../../pages/CategoryPage';
 
-describe('Navegación por categorías en mobile', () => {
-  it('Debe navegar a la categoría Hair Care desde el menú mobile', () => {
-    HomePage.visit();
-    HomePage.expandMobileMenu();
-    HomePage.navigateToCategory('Hair Care');
-    CategoryPage.validateCategoryTitle('Hair Care');
+describe('Navegación en menú mobile', () => {
+    it('Debe acceder a categoría Skin Care desde el menú', () => {
+      HomePage.visit();
+      HomePage.expandMobileMenu('Skincare');
+      cy.get('h1').should('contain.text', 'Skincare');
+    });
   });
-});
