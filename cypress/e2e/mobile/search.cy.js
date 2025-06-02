@@ -1,5 +1,6 @@
 import HomePage from "../../pages/HomePage";
 import SearchPage from "../../pages/SearchPage";
+import 'cypress-mochawesome-reporter/register'
 
 describe('Buscar producto en modo mobile', () => {
 

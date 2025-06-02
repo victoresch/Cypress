@@ -1,4 +1,6 @@
 import HomePage from "../../pages/HomePage";
+import 'cypress-mochawesome-reporter/register'
+
 
 describe('search tests - Desktop',()=> {
     beforeEach(()=>{

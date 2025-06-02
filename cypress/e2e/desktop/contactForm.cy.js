@@ -1,5 +1,7 @@
 import ContactPage from "../../pages/ContactPage";
 import HomePage from "../../pages/HomePage";
+import 'cypress-mochawesome-reporter/register'
+
 
 describe('Formulario de contacto',()=>{
     it('Debe enviar el formulario correctamente', () => {
